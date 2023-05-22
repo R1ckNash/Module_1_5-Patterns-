@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38923124-6d3e-4ddb-8e05-74facfb9bb55" name="Changes" comment="bridge">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/structural/composite/Developer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/structural/composite/JavaDeveloper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/structural/composite/Project.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/structural/composite/SwiftDeveloper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/structural/composite/Team.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/structural/composite/description.md" afterDir="false" />
+    <list default="true" id="38923124-6d3e-4ddb-8e05-74facfb9bb55" name="Changes" comment="composite">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/structural/decorator/Developer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/structural/decorator/DeveloperDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/structural/decorator/JavaDeveloper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/structural/decorator/SwiftDeveloper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/structural/decorator/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/structural/decorator/decorator.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,20 +62,7 @@
       <recent name="com.ricknash.patterns.creational.abstractFactory.banking" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Project">
-    <configuration name="BuildWebsiteRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ricknash.patterns.creational.builder.BuildWebsiteRunner" />
-      <module name="Module_1_5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ricknash.patterns.creational.builder.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Task">
     <configuration name="DatabaseRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ricknash.patterns.structural.adapter.DatabaseRunner" />
       <module name="Module_1_5" />
@@ -114,6 +102,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ricknash.patterns.structural.decorator.Task" />
+      <module name="Module_1_5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ricknash.patterns.structural.decorator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="VersionControlRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ricknash.patterns.creational.prototype.VersionControlRunner" />
       <module name="Module_1_5" />
@@ -142,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task" />
         <item itemvalue="Application.Project" />
         <item itemvalue="Application.ProgramCreator" />
         <item itemvalue="Application.DatabaseRunner" />
         <item itemvalue="Application.VersionControlRunner" />
-        <item itemvalue="Application.BuildWebsiteRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684775503045</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="composite">
+      <created>1684777202764</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1684777202764</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -219,6 +227,7 @@
     <MESSAGE value="prototype" />
     <MESSAGE value="adapter" />
     <MESSAGE value="bridge" />
-    <option name="LAST_COMMIT_MESSAGE" value="bridge" />
+    <MESSAGE value="composite" />
+    <option name="LAST_COMMIT_MESSAGE" value="composite" />
   </component>
 </project>
