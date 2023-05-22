@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38923124-6d3e-4ddb-8e05-74facfb9bb55" name="Changes" comment="facade">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/structural/flyweight/Developer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/structural/flyweight/DeveloperFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/structural/flyweight/JavaDeveloper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/structural/flyweight/ProjectRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/structural/flyweight/SwiftDeveloper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/structural/flyweight/description.md" afterDir="false" />
+    <list default="true" id="38923124-6d3e-4ddb-8e05-74facfb9bb55" name="Changes" comment="flyweight">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/structural/proxy/Project.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/structural/proxy/ProjectRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/structural/proxy/ProxyProject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/structural/proxy/RealProject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/structural/proxy/description.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,20 +61,7 @@
       <recent name="com.ricknash.patterns.creational.abstractFactory.banking" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProjectRunner">
-    <configuration name="ProgramCreator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ricknash.patterns.structural.bridge.ProgramCreator" />
-      <module name="Module_1_5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ricknash.patterns.structural.bridge.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.com.ricknash.patterns.structural.proxy.ProjectRunner">
     <configuration name="Project" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ricknash.patterns.structural.composite.Project" />
       <module name="Module_1_5" />
@@ -127,6 +114,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.ricknash.patterns.structural.proxy.ProjectRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ricknash.patterns.structural.proxy.ProjectRunner" />
+      <module name="Module_1_5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ricknash.patterns.structural.proxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="Module_1_5 (Patterns)" />
       <method v="2">
@@ -142,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.ricknash.patterns.structural.proxy.ProjectRunner" />
         <item itemvalue="Application.ProjectRunner" />
         <item itemvalue="Application.SprintRunner" />
         <item itemvalue="Application.Task" />
         <item itemvalue="Application.Project" />
-        <item itemvalue="Application.ProgramCreator" />
       </list>
     </recent_temporary>
   </component>
@@ -229,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684780610050</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="flyweight">
+      <created>1684782178887</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1684782178888</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -243,6 +250,7 @@
     <MESSAGE value="composite" />
     <MESSAGE value="decorator" />
     <MESSAGE value="facade" />
-    <option name="LAST_COMMIT_MESSAGE" value="facade" />
+    <MESSAGE value="flyweight" />
+    <option name="LAST_COMMIT_MESSAGE" value="flyweight" />
   </component>
 </project>
