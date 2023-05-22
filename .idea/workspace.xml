@@ -4,16 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38923124-6d3e-4ddb-8e05-74facfb9bb55" name="Changes" comment="adapter">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/structural/bridge/BankSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/structural/bridge/Developer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/structural/bridge/JavaDeveloper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/structural/bridge/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/structural/bridge/ProgramCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/structural/bridge/StockExchange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/structural/bridge/SwiftDeveloper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/structural/bridge/description.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="38923124-6d3e-4ddb-8e05-74facfb9bb55" name="Changes" comment="bridge">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/structural/composite/Developer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/structural/composite/JavaDeveloper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/structural/composite/Project.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/structural/composite/SwiftDeveloper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/structural/composite/Team.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/structural/composite/description.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +53,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.ricknash.patterns.structural.composite" />
       <recent name="com.ricknash.patterns.structural.bridge" />
       <recent name="com.ricknash.patterns.creational.builder" />
     </key>
@@ -63,7 +61,7 @@
       <recent name="com.ricknash.patterns.creational.abstractFactory.banking" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProgramCreator">
+  <component name="RunManager" selected="Application.Project">
     <configuration name="BuildWebsiteRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ricknash.patterns.creational.builder.BuildWebsiteRunner" />
       <module name="Module_1_5" />
@@ -103,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Service" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ricknash.patterns.creational.singleton.Service" />
+    <configuration name="Project" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ricknash.patterns.structural.composite.Project" />
       <module name="Module_1_5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ricknash.patterns.creational.singleton.*" />
+          <option name="PATTERN" value="com.ricknash.patterns.structural.composite.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Project" />
         <item itemvalue="Application.ProgramCreator" />
         <item itemvalue="Application.DatabaseRunner" />
         <item itemvalue="Application.VersionControlRunner" />
         <item itemvalue="Application.BuildWebsiteRunner" />
-        <item itemvalue="Application.Service" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684764194390</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="bridge">
+      <created>1684775503045</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1684775503045</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -213,6 +218,7 @@
     <MESSAGE value="builder" />
     <MESSAGE value="prototype" />
     <MESSAGE value="adapter" />
-    <option name="LAST_COMMIT_MESSAGE" value="adapter" />
+    <MESSAGE value="bridge" />
+    <option name="LAST_COMMIT_MESSAGE" value="bridge" />
   </component>
 </project>
