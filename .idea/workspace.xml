@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38923124-6d3e-4ddb-8e05-74facfb9bb55" name="Changes" comment="builder">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/creational/prototype/Copyble.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/creational/prototype/Project.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/creational/prototype/ProjectFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/creational/prototype/VersionControlRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/creational/prototype/description.md" afterDir="false" />
+    <list default="true" id="38923124-6d3e-4ddb-8e05-74facfb9bb55" name="Changes" comment="prototype">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/structural/adapter/AdapterJavaToDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/structural/adapter/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/structural/adapter/DatabaseRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/structural/adapter/JavaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/structural/adapter/description.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +59,7 @@
       <recent name="com.ricknash.patterns.creational.abstractFactory.banking" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.VersionControlRunner">
+  <component name="RunManager" selected="Application.DatabaseRunner">
     <configuration name="BuildWebsiteRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ricknash.patterns.creational.builder.BuildWebsiteRunner" />
       <module name="Module_1_5" />
@@ -73,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NetflixKiller" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ricknash.patterns.creational.abstractFactory.NetflixKiller" />
+    <configuration name="DatabaseRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ricknash.patterns.structural.adapter.DatabaseRunner" />
       <module name="Module_1_5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ricknash.patterns.creational.abstractFactory.*" />
+          <option name="PATTERN" value="com.ricknash.patterns.structural.adapter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,8 +86,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RevolutKiller" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ricknash.patterns.creational.abstractFactory.RevolutKiller" />
+    <configuration name="NetflixKiller" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ricknash.patterns.creational.abstractFactory.NetflixKiller" />
       <module name="Module_1_5" />
       <extension name="coverage">
         <pattern>
@@ -140,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DatabaseRunner" />
         <item itemvalue="Application.VersionControlRunner" />
         <item itemvalue="Application.BuildWebsiteRunner" />
         <item itemvalue="Application.Service" />
         <item itemvalue="Application.NetflixKiller" />
-        <item itemvalue="Application.RevolutKiller" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684512686659</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="prototype">
+      <created>1684566782607</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1684566782607</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -193,6 +200,7 @@
     <MESSAGE value="abstract factory" />
     <MESSAGE value="singleton" />
     <MESSAGE value="builder" />
-    <option name="LAST_COMMIT_MESSAGE" value="builder" />
+    <MESSAGE value="prototype" />
+    <option name="LAST_COMMIT_MESSAGE" value="prototype" />
   </component>
 </project>
