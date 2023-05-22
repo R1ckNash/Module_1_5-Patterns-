@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38923124-6d3e-4ddb-8e05-74facfb9bb55" name="Changes" comment="decorator">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/structural/facade/Bugtracker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/structural/facade/Developer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/structural/facade/Job.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/structural/facade/SprintRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/structural/facade/description.md" afterDir="false" />
+    <list default="true" id="38923124-6d3e-4ddb-8e05-74facfb9bb55" name="Changes" comment="facade">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/structural/flyweight/Developer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/structural/flyweight/DeveloperFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/structural/flyweight/JavaDeveloper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/structural/flyweight/ProjectRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/structural/flyweight/SwiftDeveloper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/structural/flyweight/description.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,20 +61,7 @@
       <recent name="com.ricknash.patterns.creational.abstractFactory.banking" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SprintRunner">
-    <configuration name="DatabaseRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ricknash.patterns.structural.adapter.DatabaseRunner" />
-      <module name="Module_1_5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ricknash.patterns.structural.adapter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ProjectRunner">
     <configuration name="ProgramCreator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ricknash.patterns.structural.bridge.ProgramCreator" />
       <module name="Module_1_5" />
@@ -93,6 +81,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ricknash.patterns.structural.composite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProjectRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ricknash.patterns.structural.flyweight.ProjectRunner" />
+      <module name="Module_1_5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ricknash.patterns.structural.flyweight.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProjectRunner" />
         <item itemvalue="Application.SprintRunner" />
         <item itemvalue="Application.Task" />
         <item itemvalue="Application.Project" />
         <item itemvalue="Application.ProgramCreator" />
-        <item itemvalue="Application.DatabaseRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684779097152</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="facade">
+      <created>1684780610050</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1684780610050</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -234,6 +242,7 @@
     <MESSAGE value="bridge" />
     <MESSAGE value="composite" />
     <MESSAGE value="decorator" />
-    <option name="LAST_COMMIT_MESSAGE" value="decorator" />
+    <MESSAGE value="facade" />
+    <option name="LAST_COMMIT_MESSAGE" value="facade" />
   </component>
 </project>
