@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38923124-6d3e-4ddb-8e05-74facfb9bb55" name="Changes" comment="flyweight">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/structural/proxy/Project.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/structural/proxy/ProjectRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/structural/proxy/ProxyProject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/structural/proxy/RealProject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/structural/proxy/description.md" afterDir="false" />
+    <list default="true" id="38923124-6d3e-4ddb-8e05-74facfb9bb55" name="Changes" comment="proxy">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/behavioral/chain/Bugtracker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/behavioral/chain/EmailNotifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/behavioral/chain/Notifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/behavioral/chain/Priority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/behavioral/chain/SMSNotifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/behavioral/chain/SimpleReportNotifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/behavioral/chain/description.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,13 +63,13 @@
       <recent name="com.ricknash.patterns.creational.abstractFactory.banking" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.ricknash.patterns.structural.proxy.ProjectRunner">
-    <configuration name="Project" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ricknash.patterns.structural.composite.Project" />
+  <component name="RunManager" selected="Application.Bugtracker">
+    <configuration name="Bugtracker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ricknash.patterns.behavioral.chain.Bugtracker" />
       <module name="Module_1_5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ricknash.patterns.structural.composite.*" />
+          <option name="PATTERN" value="com.ricknash.patterns.behavioral.chain.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Bugtracker" />
         <item itemvalue="Application.com.ricknash.patterns.structural.proxy.ProjectRunner" />
         <item itemvalue="Application.ProjectRunner" />
         <item itemvalue="Application.SprintRunner" />
         <item itemvalue="Application.Task" />
-        <item itemvalue="Application.Project" />
       </list>
     </recent_temporary>
   </component>
@@ -236,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684782178888</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="proxy">
+      <created>1684785944084</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1684785944084</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -251,6 +260,7 @@
     <MESSAGE value="decorator" />
     <MESSAGE value="facade" />
     <MESSAGE value="flyweight" />
-    <option name="LAST_COMMIT_MESSAGE" value="flyweight" />
+    <MESSAGE value="proxy" />
+    <option name="LAST_COMMIT_MESSAGE" value="proxy" />
   </component>
 </project>
