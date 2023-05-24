@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38923124-6d3e-4ddb-8e05-74facfb9bb55" name="Changes" comment="observer">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/behavioral/state/Activity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/behavioral/state/Code.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/behavioral/state/Developer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/behavioral/state/Read.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/behavioral/state/Sleep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/behavioral/state/description.md" afterDir="false" />
+    <list default="true" id="38923124-6d3e-4ddb-8e05-74facfb9bb55" name="Changes" comment="state">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/behavioral/strategy/Activity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/behavioral/strategy/Code.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/behavioral/strategy/Developer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/behavioral/strategy/Read.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/behavioral/strategy/Sleep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ricknash/patterns/behavioral/strategy/description.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +62,7 @@
       <recent name="com.ricknash.patterns.creational.abstractFactory.banking" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DeveloperDay">
+  <component name="RunManager" selected="Application.DeveloperRunner">
     <configuration name="DeveloperDay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ricknash.patterns.behavioral.state.DeveloperDay" />
       <module name="Module_1_5" />
@@ -76,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaDeveloperRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ricknash.patterns.behavioral.itearator.JavaDeveloperRunner" />
+    <configuration name="DeveloperRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ricknash.patterns.behavioral.strategy.DeveloperRunner" />
       <module name="Module_1_5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ricknash.patterns.behavioral.itearator.*" />
+          <option name="PATTERN" value="com.ricknash.patterns.behavioral.strategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DeveloperRunner" />
         <item itemvalue="Application.DeveloperDay" />
         <item itemvalue="Application.JobSearch" />
         <item itemvalue="Application.SaveProjectRunner" />
         <item itemvalue="Application.SimpleChatRunner" />
-        <item itemvalue="Application.JavaDeveloperRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -293,7 +293,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684927645785</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="state">
+      <created>1684928699924</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1684928699924</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -316,6 +323,7 @@
     <MESSAGE value="mediator" />
     <MESSAGE value="memento" />
     <MESSAGE value="observer" />
-    <option name="LAST_COMMIT_MESSAGE" value="observer" />
+    <MESSAGE value="state" />
+    <option name="LAST_COMMIT_MESSAGE" value="state" />
   </component>
 </project>
